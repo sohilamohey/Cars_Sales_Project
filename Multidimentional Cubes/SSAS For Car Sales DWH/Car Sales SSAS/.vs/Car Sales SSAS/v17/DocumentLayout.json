@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\18. Graduation Project\\DWH\\SSAS For Car Sales DWH\\Car Sales SSAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD072CA-1945-4C19-92E1-DCFCD38A6561}|Car Sales SSAS\\Car Sales SSAS.dwproj|E:\\ITI\\18. Graduation Project\\DWH\\SSAS For Car Sales DWH\\Car Sales SSAS\\Car Sales SSAS\\Car.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DFD072CA-1945-4C19-92E1-DCFCD38A6561}|Car Sales SSAS\\Car Sales SSAS.dwproj|solutionrelative:Car Sales SSAS\\Car.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Car.cube [Design]",
+              "DocumentMoniker": "E:\\ITI\\18. Graduation Project\\DWH\\SSAS For Car Sales DWH\\Car Sales SSAS\\Car Sales SSAS\\Car.cube",
+              "RelativeDocumentMoniker": "Car Sales SSAS\\Car.cube",
+              "ToolTip": "E:\\ITI\\18. Graduation Project\\DWH\\SSAS For Car Sales DWH\\Car Sales SSAS\\Car Sales SSAS\\Car.cube [Design]",
+              "RelativeToolTip": "Car Sales SSAS\\Car.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-15T23:56:09.892Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

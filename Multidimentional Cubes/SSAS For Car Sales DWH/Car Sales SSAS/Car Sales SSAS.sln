@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Car Sales SSAS", "Car Sales SSAS\Car Sales SSAS.dwproj", "{DFD072CA-1945-4C19-92E1-DCFCD38A6561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFD072CA-1945-4C19-92E1-DCFCD38A6561}.Development|Default.ActiveCfg = Development
+		{DFD072CA-1945-4C19-92E1-DCFCD38A6561}.Development|Default.Build.0 = Development
+		{DFD072CA-1945-4C19-92E1-DCFCD38A6561}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421D6626-16CD-4368-9D87-795FA14B9B2A}
+	EndGlobalSection
+EndGlobal

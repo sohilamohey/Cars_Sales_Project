@@ -1,0 +1,139 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="82d81b7d-ae26-4977-9bf8-25a445f97ee1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Car D Ws</ID>
+  <Name>Car D Ws</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Car D Ws</DataSourceID>
+  <Schema>
+    <xs:schema id="Car_x0020_D_x0020_Ws" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Car_x0020_D_x0020_Ws" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="49ea2d0f-9a72-4a42-a334-062494c01705">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Car" msprop:DbTableName="Dim_Car" msprop:FriendlyName="Dim_Car" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="7a3a0f81-f7a5-4555-8554-dd4f458bbd69">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="car_sk" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="car_sk" msprop:DbColumnName="car_sk" msprop:design-time-name="23e23c3a-2c11-42aa-8001-d395d9f5aab0" type="xs:int" />
+                  <xs:element name="car_id_bk" msprop:FriendlyName="car_id_bk" msprop:DbColumnName="car_id_bk" msprop:design-time-name="b11b87cd-0043-47d6-ab55-f9f96bad8b6c" type="xs:int" />
+                  <xs:element name="car_maker" msprop:FriendlyName="car_maker" msprop:DbColumnName="car_maker" msprop:design-time-name="cfcfd9fb-da13-4811-be3a-110853fefeed" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="car_model" msprop:FriendlyName="car_model" msprop:DbColumnName="car_model" msprop:design-time-name="91a214b4-aee3-4125-8cbd-27e30613fde1" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="car_color" msprop:FriendlyName="car_color" msprop:DbColumnName="car_color" msprop:design-time-name="ff8ab9b3-4aa8-4ca7-bbe3-a473fc01e387" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="car_year" msprop:FriendlyName="car_year" msprop:DbColumnName="car_year" msprop:design-time-name="3dfd6c79-8989-4418-a8db-475d56da3ab9" type="xs:int" minOccurs="0" />
+                  <xs:element name="car_price" msprop:FriendlyName="car_price" msprop:DbColumnName="car_price" msprop:design-time-name="c1c5d8c3-f4fc-455c-b9b9-e67ae4b3e822" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="source_key" msprop:FriendlyName="source_key" msprop:DbColumnName="source_key" msprop:design-time-name="867e4699-f6a7-40ed-8cc9-8986ffd7316e" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_Sales" msprop:DbTableName="Fact_Sales" msprop:FriendlyName="Fact_Sales" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="a228de43-2558-4a88-a419-657e46578c49">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Order_ID_BK" msprop:FriendlyName="Order_ID_BK" msprop:DbColumnName="Order_ID_BK" msprop:design-time-name="13bfb35e-7fac-43f1-9d8a-c8bf4f2262ed">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Order_ID_SK" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Order_ID_SK" msprop:DbColumnName="Order_ID_SK" msprop:design-time-name="5d30ce3d-ca55-45f4-96be-7aa6c3b6a00d" type="xs:int" />
+                  <xs:element name="supplier_sk" msprop:FriendlyName="supplier_sk" msprop:DbColumnName="supplier_sk" msprop:design-time-name="824a4e07-781d-4d2f-afe5-6467b558b7f4" type="xs:int" />
+                  <xs:element name="customer_sk" msprop:FriendlyName="customer_sk" msprop:DbColumnName="customer_sk" msprop:design-time-name="2142e74c-d175-43bb-9416-0ae6f2cd7db4" type="xs:int" />
+                  <xs:element name="car_sk" msprop:FriendlyName="car_sk" msprop:DbColumnName="car_sk" msprop:design-time-name="61f3cc13-2e78-4463-bc0b-10d5394e7282" type="xs:int" />
+                  <xs:element name="shipping_sk" msprop:FriendlyName="shipping_sk" msprop:DbColumnName="shipping_sk" msprop:design-time-name="196b25fc-d25f-4ba0-90af-7722467c6608" type="xs:int" />
+                  <xs:element name="order_date" msprop:FriendlyName="order_date" msprop:DbColumnName="order_date" msprop:design-time-name="5f5fec51-d660-4348-bf48-1aa76fcd3f04" type="xs:dateTime" />
+                  <xs:element name="ship_date" msprop:FriendlyName="ship_date" msprop:DbColumnName="ship_date" msprop:design-time-name="32539802-752b-4cfe-afd4-207a90fd73af" type="xs:dateTime" />
+                  <xs:element name="quantity" msprop:FriendlyName="quantity" msprop:DbColumnName="quantity" msprop:design-time-name="3b7d41d2-6be2-416b-aca2-2dc47962ee40" type="xs:int" />
+                  <xs:element name="feedback" msprop:FriendlyName="feedback" msprop:DbColumnName="feedback" msprop:design-time-name="b30a6044-7ecc-4a8f-a7d1-012b6cbe8c62">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tax" msprop:FriendlyName="tax" msprop:DbColumnName="tax" msprop:design-time-name="4ae764ef-0135-430c-a3bc-9ae3368e065d" type="xs:decimal" />
+                  <xs:element name="sales" msprop:FriendlyName="sales" msprop:DbColumnName="sales" msprop:design-time-name="29af49a4-f800-43ca-82e8-deaede453155" type="xs:int" />
+                  <xs:element name="status" msprop:FriendlyName="status" msprop:DbColumnName="status" msprop:design-time-name="270ffcbc-7d80-454c-96af-2a0c44aea870" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="feedback_ID" msprop:FriendlyName="feedback_ID" msprop:DbColumnName="feedback_ID" msprop:design-time-name="965425f1-df6c-4897-8f46-f524e6a35bb8" type="xs:int" minOccurs="0" />
+                  <xs:element name="Payment_method_ID" msprop:FriendlyName="Payment_method_ID" msprop:DbColumnName="Payment_method_ID" msprop:design-time-name="e76ad528-2d30-4c39-9f6c-0246bd0f35c2" type="xs:int" minOccurs="0" />
+                  <xs:element name="status_id" msprop:FriendlyName="status_id" msprop:DbColumnName="status_id" msprop:design-time-name="10b4fb6c-cf5d-400b-8c2d-5b9707f2d6ef" type="xs:int" minOccurs="0" />
+                  <xs:element name="source_key" msprop:FriendlyName="source_key" msprop:DbColumnName="source_key" msprop:design-time-name="59fa60b5-dacf-47e3-bb68-07d0e3a19ed8" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Car" />
+          <xs:field xpath="car_sk" />
+        </xs:unique>
+        <xs:unique name="dbo_Fact_Sales_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_Sales" />
+          <xs:field xpath="Order_ID_SK" />
+        </xs:unique>
+        <xs:keyref name="FK_Fact_Sales_Dim_Car" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Sales" />
+          <xs:field xpath="car_sk" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Car_x0020_D_x0020_Ws xmlns="" />
+  </Schema>
+</DataSourceView>
